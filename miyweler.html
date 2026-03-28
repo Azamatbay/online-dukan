@@ -11,3 +11,144 @@
        <p>4. SHabdal</p>
     </body>
 </html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mevalar Do‘koni</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f0fdf4;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #16a34a;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #22c55e;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Products */
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #166534;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>🍎 Fruit Shop</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Yangi va tabiiy mevalar 🍓</h1>
+    <p>Eng sifatli va arzon mevalar faqat bizda!</p>
+</section>
+
+<section class="products">
+    <h2>Bizning mevalar</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="">
+            <h3>Olma 🍎</h3>
+            <p class="price">10 000 so‘m</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="">
+            <h3>Banan 🍌</h3>
+            <p class="price">15 000 so‘m</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="">
+            <h3>Uzum 🍇</h3>
+            <p class="price">12 000 so‘m</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Kontakt</h2>
+    <p>📞 +998 90 123 45 67</p>
+    <p>📍 Toshkent</p>
+</section>
+
+<footer>
+    <p>© 2026 Fruit Shop</p>
+</footer>
+
+</body>
+    </html>
